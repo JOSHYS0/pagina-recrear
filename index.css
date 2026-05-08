@@ -19,9 +19,8 @@ header{
 
 .agrupados{
     margin-left: auto;
-    margin-right: 100px;
     display: flex;
-    gap: 60px;
+    gap: 80px;
 }
 
 nav ul{
@@ -142,9 +141,8 @@ h1{
     display: grid;
     grid-template-columns: repeat(2, 250px);
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
 }
-
 
 
 .tarjeta{
@@ -155,12 +153,13 @@ h1{
     display: flex;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
 .tarjeta:hover{
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
 }
 
 .tarjeta .btn{
@@ -243,5 +242,63 @@ h1{
 .btn_png:hover{
     background: #0089eb;
     border: 2px solid #0089eb;
+}
+
+.portafolio{
+    padding: 50px 30px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo h2{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.titulo p{
+    max-width: 500px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.separador{
+    width: 2px;
+    height: 20px;
+    background-color: #ccc;
+    margin: 15px 10px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.menu .activado{
+    color: #0089eb;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #888888;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover{
+    color: #0089eb;
 }
 
