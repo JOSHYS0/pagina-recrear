@@ -384,4 +384,120 @@ h1{
     font-weight: 500;
     color: #333;
 }
+
 /*Aqui termina mi seccion att: Joshua aqui abajo estaran la secciones de Sofia y Eli*/  
+
+/*Aqui termina mi seccion att: Joshua aqui abajo estaran la secciones de Sofia y Eli*/
+
+
+/* Estilos para la sección de Sofia */
+
+.banner{
+    background-image: url(img/banner-bg-01-3840x620.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Map iframe{
+    width: 100%;
+    height: 550px;
+    border: none;
+}
+
+footer{
+    background-color: #171220;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    gap: 60px;
+}
+
+.row span{
+    position: relative;
+    color: #dddcdc;
+    font-size: 14px;
+
+}
+
+.row span:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 15px;
+    background-color:  rgba(255,255,255,0.2);
+}
+
+.row span:hover{
+    
+    color: #316bb3;
+    cursor: pointer;
+}
+
+.line{
+    width: 85%;
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+    margin-top: 40px;
+}
+
+.footer-bottom{
+    margin-top: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    flex: 1;
+    margin-right: auto;
+    color: #777;
+    font-size: 13px;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: #777;
+    font-size: 13px;
+
+}
+
+.social{
+    flex: 1;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social img{
+    width: 18px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.social img:hover{
+    opacity: 1;
+    cursor: pointer;;
+}
+
